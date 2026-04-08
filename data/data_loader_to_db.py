@@ -13,15 +13,15 @@ class data_loader_to_db:
         
     def load_data_to_db():
         # Path to all files list
-        path_of_aggregated_transaction_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/aggregated/transaction/country/india/state/"
-        path_of_aggregated_user_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/aggregated/user/country/india/state/"
-        path_of_aggregated_insurance_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/aggregated/insurance/country/india/state/"
-        path_of_map_transaction_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/map/transaction/hover/country/india/state/"
-        path_of_map_user_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/map/user/hover/country/india/state/"
-        path_of_map_insurance_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/map/insurance/hover/country/india/state/"
-        path_of_top_transaction_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/top/transaction/country/india/state/"
-        path_of_top_user_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/top/user/country/india/state/"
-        path_of_top_insurance_data="D:/RITHICKA/DATA_SCIENCE/Dataset/pulse/data/top/insurance/country/india/state/"
+        path_of_aggregated_transaction_data="path_to/Dataset/pulse/data/aggregated/transaction/country/india/state/"
+        path_of_aggregated_user_data="path_to/Dataset/pulse/data/aggregated/user/country/india/state/"
+        path_of_aggregated_insurance_data="path_to/Dataset/pulse/data/aggregated/insurance/country/india/state/"
+        path_of_map_transaction_data="path_to/Dataset/pulse/data/map/transaction/hover/country/india/state/"
+        path_of_map_user_data="path_to/Dataset/pulse/data/map/user/hover/country/india/state/"
+        path_of_map_insurance_data="path_to/Dataset/pulse/data/map/insurance/hover/country/india/state/"
+        path_of_top_transaction_data="path_to/Dataset/pulse/data/top/transaction/country/india/state/"
+        path_of_top_user_data="path_to/Dataset/pulse/data/top/user/country/india/state/"
+        path_of_top_insurance_data="path_to/Dataset/pulse/data/top/insurance/country/india/state/"
 
         # fetching list of states inside the directory
         aggregated_state_list=os.listdir(path_of_aggregated_transaction_data)

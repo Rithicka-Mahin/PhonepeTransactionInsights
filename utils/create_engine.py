@@ -11,9 +11,9 @@ class get_database_engine:
         # Database connection parameters
         DB_HOST = "localhost"
         DB_PORT = "5432"
-        DB_NAME = "phonepe_db"  # Create this database first
-        DB_USER = "postgres"
-        DB_PASSWORD = "postgres"
+        DB_NAME = "db_name"  # Create this database first
+        DB_USER = "db_user_name"
+        DB_PASSWORD = "db_password"
     
         # Create connection string
         connection_string = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"

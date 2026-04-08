@@ -37,11 +37,7 @@ elif page == "Analysis":
         "Device Dominance and User Engagement Analysis",
         "Insurance Penetration and Growth Potential Analysis",
         "Transaction Analysis for Market Expansion",
-        # "User Engagement and Growth Strategy",
-        "Insurance Engagement Analysis",
-        # "Transaction Analysis Across States and Districts",
-        # "User Registration Analysis",
-        # "Insurance Transactions Analysis"
+        "Insurance Engagement Analysis"
         ], 
         index=0)
     # Handling the case study selected
